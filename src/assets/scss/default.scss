@@ -1,0 +1,150 @@
+
+@import "config";
+@import "startBar";
+@import "media";
+
+body {
+  background: "white";
+  overflow: hidden;
+}
+p {
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+.Desktop {
+  background: $vomitGreen;
+}
+
+.icon {
+  margin: 0px 20px 20px 20px;
+}
+.boticon {
+  margin: 20px 20px 0px 20px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 50px;
+}
+
+.right {
+  float: right;
+}
+.left {
+  width: 50px;
+}
+.rightside {
+  float: right;
+  width: 300px;
+}
+
+
+// Window Style
+
+.handle:hover {
+  cursor: grabbing;
+}
+.handle {
+  background: $blueblue;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+  height: 22px;
+  color: white;
+  padding-top: 3px;
+}
+
+.handleTitle {
+  padding-left: 5px;
+}
+
+.react-draggable {
+  min-height: 700px;
+  min-width: 500px;
+  display: none;
+  border: solid 1px #ddd;
+  background: #bfbfbf;
+}
+@media screen and (max-width: 500px){
+  .react-draggable {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.aboutContent{
+  height: 100%;
+  width: 100%;
+}
+.content {
+  top: 35px;
+  padding: 35px 10px 10px 10px;
+}
+
+// About style
+
+.about {
+  min-width: 500px;
+  min-height: 600px;
+}
+.aboutText {
+  width: 60%;
+  height: calc(100% - 40px);
+  right: 0;
+  position: absolute;
+  top: 35px;
+  background: $boringGrey;
+}
+.aboutImages {
+  width: 40%;
+  height: calc(100% - 40px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 17px;
+  box-sizing: content-box;
+}
+.aboutImages img{
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+.about p {
+  color: #148;
+  text-align: left;
+  padding-bottom: 10px;
+  margin-right: 5px;
+}
+
+.about p h1 {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.about p h4 {
+  padding-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+////////////////////
+
+.close:hover {
+  background: #aaa;
+}
+.close {
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  height: 20px;
+  width: 20px;
+  padding: 0px 0px 3px 0px;
+  border: 1px outset black;
+  text-align: center;
+}
+
+.resize {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

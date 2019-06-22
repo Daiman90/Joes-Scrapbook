@@ -1,0 +1,154 @@
+
+.media_title{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: $maroon;
+  border-bottom: 1px solid white;
+}
+
+.media_info{
+  height: auto;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.media_description{
+  margin-left: 95px;
+  padding-left: 5px;
+  padding-top: 10px;
+  text-align: left;
+  border-left: 1px solid white;
+  color: "black";
+}
+
+.media_description p {
+  color: "black";
+}
+
+.mediaItem {
+  height: 100%;
+}
+
+.media_info {
+  height: 275px;
+}
+
+///////////////////
+// Image Gallery //
+///////////////////
+
+.media_gallery{
+  position: relative;
+  background: #999999;
+  width: 100%;
+  height: calc(100% - 330px);
+}
+
+.images{
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.image_left, .image_right, .image_button {
+  cursor: pointer;
+}
+
+.leftArrow{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 25px;
+
+  font-size: 30px;
+  cursor: pointer;
+  color: $maroon;
+  @include transition(.4s ease);
+  &:hover{
+    opacity: 0.5;
+    background: 'grey';
+    @include transition(.4s ease);
+    color: $white;
+  }
+
+  & span{
+    position: absolute;
+    top: 45%;
+    left: 0;
+  }
+}
+
+.rightArrow{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  width: 25px;
+
+  font-size: 30px;
+  cursor: pointer;
+  color: $maroon;
+  @include transition(.4s ease);
+
+  &:hover{
+    opacity: 0.5;
+    background: 'grey';
+    @include transition(.4s ease);
+    color: $white;
+  }
+
+  & span{
+    position: absolute;
+    top: 45%;
+    right: 0%;
+  }
+}
+
+.image_description{
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.image_button{
+  height: 13px;
+  width: 13px;
+}
+
+.mediaItem{
+  // padding-bottom: 100px;
+  text-align: center;
+}
+
+.gallery_dots{
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  margin: auto;
+}
+
+.dot{
+  background-color: transparent;
+  height: 13px;
+  width: 13px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid $boringGrey;
+  margin-left: 10px;
+  cursor: pointer;
+  &:hover{
+    background-color: $boringGrey;
+    border: 1px solid $maroon;
+  }
+}
+
+.fill{
+  background-color: $maroon;
+}
