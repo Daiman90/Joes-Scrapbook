@@ -1,6 +1,3 @@
-//Deckard == photo
-//video == video
-
 import React, { Component } from "react";
 import Rnd from "react-rnd";
 import Photo from "./Photo";
