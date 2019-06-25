@@ -2,9 +2,10 @@
   "name": "joe",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://daiman90.github.io/Joes-Scrapbook/",
   "dependencies": {
     "browser": "^0.2.6",
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^3.9.4",
