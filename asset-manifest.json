@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Joes-Scrapbook/static/css/main.8f96f642.chunk.css",
+    "main.js": "/Joes-Scrapbook/static/js/main.3a3d4ae6.chunk.js",
+    "main.js.map": "/Joes-Scrapbook/static/js/main.3a3d4ae6.chunk.js.map",
+    "runtime~main.js": "/Joes-Scrapbook/static/js/runtime~main.21305593.js",
+    "runtime~main.js.map": "/Joes-Scrapbook/static/js/runtime~main.21305593.js.map",
+    "static/js/2.5a98fd55.chunk.js": "/Joes-Scrapbook/static/js/2.5a98fd55.chunk.js",
+    "static/js/2.5a98fd55.chunk.js.map": "/Joes-Scrapbook/static/js/2.5a98fd55.chunk.js.map",
+    "index.html": "/Joes-Scrapbook/index.html",
+    "precache-manifest.b60a2405e9a463b609780ee0fa440abf.js": "/Joes-Scrapbook/precache-manifest.b60a2405e9a463b609780ee0fa440abf.js",
+    "service-worker.js": "/Joes-Scrapbook/service-worker.js",
+    "static/css/main.8f96f642.chunk.css.map": "/Joes-Scrapbook/static/css/main.8f96f642.chunk.css.map",
+    "static/media/joe1.mp4": "/Joes-Scrapbook/static/media/joe1.45cd4dcb.mp4",
+    "static/media/joe1.jpg": "/Joes-Scrapbook/static/media/joe1.8a02849e.jpg",
+    "static/media/joe10.jpg": "/Joes-Scrapbook/static/media/joe10.4c4c7ed7.jpg",
+    "static/media/joe11.jpg": "/Joes-Scrapbook/static/media/joe11.a1c50dbd.jpg",
+    "static/media/joe12.jpg": "/Joes-Scrapbook/static/media/joe12.65086519.jpg",
+    "static/media/joe2.mp4": "/Joes-Scrapbook/static/media/joe2.6a3c562c.mp4",
+    "static/media/joe2.jpg": "/Joes-Scrapbook/static/media/joe2.b752aee3.jpg",
+    "static/media/joe3.jpg": "/Joes-Scrapbook/static/media/joe3.5dbbd36e.jpg",
+    "static/media/joe3.mp4": "/Joes-Scrapbook/static/media/joe3.a03ad756.mp4",
+    "static/media/joe4.mp4": "/Joes-Scrapbook/static/media/joe4.42677c87.mp4",
+    "static/media/joe4.jpg": "/Joes-Scrapbook/static/media/joe4.cd4caa53.jpg",
+    "static/media/joe5.jpg": "/Joes-Scrapbook/static/media/joe5.45249226.jpg",
+    "static/media/joe6.jpg": "/Joes-Scrapbook/static/media/joe6.0e8b06de.jpg",
+    "static/media/joe7.jpg": "/Joes-Scrapbook/static/media/joe7.2ba16823.jpg",
+    "static/media/joe8.jpg": "/Joes-Scrapbook/static/media/joe8.21625182.jpg",
+    "static/media/joe9.jpg": "/Joes-Scrapbook/static/media/joe9.5ac0f27e.jpg"
+  }
+}
